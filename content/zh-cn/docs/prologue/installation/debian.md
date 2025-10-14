@@ -17,24 +17,7 @@ toc: true
 
 ### 方法一：通过软件源安装
 
-#### 添加公钥
-
-```bash
-wget -qO - https://apt.v2raya.org/key/public-key.asc | sudo tee /etc/apt/keyrings/v2raya.asc
-```
-
-#### 添加 V2RayA 软件源
-
-```bash
-echo "deb [signed-by=/etc/apt/keyrings/v2raya.asc] https://apt.v2raya.org/ v2raya main" | sudo tee /etc/apt/sources.list.d/v2raya.list
-sudo apt update
-```
-
-#### 安装 V2RayA
-
-```bash
-sudo apt install v2raya v2ray ## 也可以使用 xray 包
-```
+软件源地址：<https://github.com/daeuniverse/debian-repo/>
 
 ### 方法二：手动安装 deb 包
 

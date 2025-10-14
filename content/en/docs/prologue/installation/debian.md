@@ -19,22 +19,7 @@ toc: 'true'
 
 #### Add public key
 
-```bash
-wget -qO - https://apt.v2raya.org/key/public-key.asc | sudo tee /etc/apt/keyrings/v2raya.asc
-```
-
-#### Add V2RayA software source
-
-```bash
-echo "deb [signed-by=/etc/apt/keyrings/v2raya.asc] https://apt.v2raya.org/ v2raya main" | sudo tee /etc/apt/sources.list.d/v2raya.list
-sudo apt update
-```
-
-#### Install V2RayA
-
-```bash
-sudo apt install v2raya v2ray ## you can install xray package instead of if you want
-```
+See the repo: <https://github.com/daeuniverse/debian-repo/>
 
 ### Method 2: Manually install the deb package
 
